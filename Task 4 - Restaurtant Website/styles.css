@@ -124,6 +124,7 @@ h3 {
   font-size: 65px;
   font-family: "Great Vibes", cursive;
   font-weight: 400;
+  margin: 20px;
 }
 h4 {
   font-size: 25px;
@@ -217,7 +218,7 @@ input[type="radio"] {
   display: flex;
 }
 label {
-  color: #fff;
+  color: #000000;
   border-radius: 8px;
   display: inline-block;
   padding: 0.7rem 1.2rem;
@@ -397,3 +398,61 @@ input[type="radio"]:hover + label {
   ::-webkit-scrollbar-thumb:hover {
     background: #f5b654;
   }
+/* Add this to your existing styles.css or create a new CSS file */
+
+/* Styling for the contact form */
+.contact-form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group.full-width {
+  flex: 2;
+}
+
+label {
+ 
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
